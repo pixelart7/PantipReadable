@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "เปลี่ยนสี Pantip.com",
+  "description": "ส่วนขยายนี้สำหรับเปลี่ยนสีใน Pantip.com ให้อ่านง่ายขึ้น",
+  "version": "1.0",
+
+  "permissions": [
+    "http://pantip.com/topic/"
+  ],
+	
+	"web_accessible_resources": [
+    "readablepantip-script.js",
+		"readablepantip-style.css"
+  ],
+	
+}
