@@ -1,0 +1,76 @@
+body, .pageno-title-counter>.title, .pageno-title>.title, .samgee .emotion-vote-choice .emotion-choice-icon:hover {
+	background-color: #bdc3c7 !important;
+}
+
+.main-post, .section-comment .display-post-wrapper-inner, .best-answer .display-post-wrapper-inner, .emotion-vote-list, .emotion-choice-icon, .review-section {
+	background-color: #ecf0f1 !important;
+}
+
+.display-post-title, .top-score {
+	color: #f39c12 !important;
+}
+
+/* Filter are temporary */
+.icon-unfav {
+	filter: saturate(0%) !important;
+	-webkit-filter: saturate(0%) !important;
+}
+
+.display-post-status-leftside .remark-four-txt, .display-post-reply .reply, .display-post-number, .pageno-title-counter>.title,  .pageno-title>.title, .emotion-choice-icon>span {
+	color: #2c3e50 !important;
+}
+
+.display-post-story, .emotion-vote-list {
+	color: #313131 !important;
+}
+
+.emotion-vote-list {
+	border-radius: 2px !important;
+}
+
+.icon-heart-like {
+	background-color: #2D2D2D !important;
+}
+
+.display-post-name:hover {
+	color: #3B5A8D !important;
+}
+
+a.display-post-name:link, .display-post-story>a:link, a.display-post-name:visited {
+	color: #3498db !important;
+}
+
+.display-post-story>a:visited {
+	color: #2980b9 !important;
+}
+
+div.loadmore-bar>a {
+	background-color: #3498db !important;
+	border-color: #3498db !important;
+}
+
+.top-comment .display-post-wrapper-inner .display-post-status-leftside {
+	border: none !important;
+}
+
+.top-comment .display-post-wrapper-inner {
+	border: 2px solid #f1c40f !important;
+}
+
+.comment-box-color .display-post-wrapper-inner{
+	backgrund-color: #093A43 !important;
+}
+
+.display-post-tag-wrapper a {
+	background-color: #3498db !important;
+	color: #fff !important;
+	border: none !important;
+}
+
+.display-post-tag-wrapper a:hover {
+	background-color: #217DBB !important;
+}
+
+.samgee #comments-jsrender .loadmore-bar-paging a {
+	background-color: #3498db !important;
+}

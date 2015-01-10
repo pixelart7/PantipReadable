@@ -2,16 +2,31 @@
   "manifest_version": 2,
 
   "name": "เปลี่ยนสี Pantip.com",
-  "description": "ส่วนขยายนี้สำหรับเปลี่ยนสีใน Pantip.com ให้อ่านง่ายขึ้น",
-  "version": "1.0",
+  "description": "เปลี่ยนสีกระทู้ใน Pantip.com ให้อ่านง่ายขึ้น",
+  "version": "0.1",
+	"short_name": "ReadablePantip",
+	
+	"icons": { 
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png" 
+	},
 
   "permissions": [
     "http://pantip.com/topic/"
   ],
 	
-	"web_accessible_resources": [
-    "readablepantip-script.js",
-		"readablepantip-style.css"
-  ],
+	"content_scripts": [
+		{
+			"matches": [
+				"http://pantip.com/topic/*",
+				"https://pantip.com/topic/*"
+			],
+			"css": [
+				"readablepantip-style.css"
+			],
+			"run_at": "document_start"
+		}
+	]
 	
 }
